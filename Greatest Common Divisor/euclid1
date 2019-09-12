@@ -1,4 +1,4 @@
-/* calculates Highest Common Factor or Greatest common Divisor using eulcid's algorithm */
+<html>/* calculates Highest Common Factor or Greatest common Divisor using eulcid's algorithm */
 
 #include<stdio.h>
 
@@ -13,3 +13,4 @@ int <b>gcd(</b>int a,int b){
     }
     return b;
 }
+</html>
