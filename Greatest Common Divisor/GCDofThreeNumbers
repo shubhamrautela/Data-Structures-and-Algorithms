@@ -1,0 +1,4 @@
+int gcd_three(int a,int b,intc){
+    
+    return gcd(gcd(a,b),c);   //calls any of three previously defined gcd function
+}
