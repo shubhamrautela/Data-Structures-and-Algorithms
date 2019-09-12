@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int gcd(int a,int b){
+int <b>gcd(</b>int a,int b){
     while(a>0){
       if(b>a){
         int temp=b;
