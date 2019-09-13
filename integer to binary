@@ -1,0 +1,17 @@
+/* calculates binary equivalent of an integer */
+
+#include<math.h>
+int int_to_binary(int num){
+
+  /* x is the place at which the one is going to be inserted */
+  int x=0;
+  int bin_num=0;
+  while(num>0){
+  
+  /* if it leaves one as remainder then turn the bit on */
+  if(num%2==1)
+    bin_num+=pow(10,x);
+  }
+  x++;
+  num/=2;
+}
