@@ -11,7 +11,9 @@ int int_to_binary(int num){
   /* if it leaves one as remainder then turn the bit on */
   if(num%2==1)
     bin_num+=pow(10,x);
-  }
+    
   x++;
   num/=2;
+  }
+  return bin_num;
 }
