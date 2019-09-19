@@ -1,4 +1,4 @@
-/* calculates Highest Common Factor or Greatest common Divisor using eulcid's algorithm */
+/* calculates Highest Common Factor or Greatest common Divisor using euclid's algorithm */
 
 #include<stdio.h>
 
